@@ -1,0 +1,15 @@
+.External{
+    color: rgb(54, 98, 243);
+}
+
+.Inex{
+    color: green;
+}
+.IE{
+    color: pink;
+}
+.EII{
+    color: aqua;
+}
+ 
+/*The correct priority order is inline > internal > external. Additionally, color priority within each style level

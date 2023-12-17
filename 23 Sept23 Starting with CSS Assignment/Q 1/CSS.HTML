@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="CSS.css">
+
+    <style>
+        .internal{
+            color: green;
+        }
+        .II color{
+            color: rgb(255, 0, 13);
+        }
+        .Inex{
+            color: blue;
+        }
+        .EII{
+            color: orange;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div style="Color:red;">Inline</div>
+    <div class="internal">Internal</div>
+    <div class="External">External</div>
+<hr>
+    
+<!--  -->
+        <div class="II color" style="color: orange;">Inline + Internal </div> <!-- only Inline color visible in web page  -->
+        <div class="Inex">Internal + External </div> <!-- only Internal color visible in web page  -->
+        <div class="IE" style="color: red;">   Inline + External </div> <!-- only Inline color visible in web page  -->
+        <div class="EII" style="color: magenta;"> External + Internal + Inline</div> <!-- only Inline color visible in web page  -->
+
+
+</body>
+</html>
